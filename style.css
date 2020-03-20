@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #87509c;
+    color: white;
+}
+
+section {
+    padding: 119px 10% 0 10%;
+}
+
+button {
+    padding: 28px 82px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.d-flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+}
+
+.flex-align {
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+.flex-justify {
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.flex-justify-between {
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1176px;
+    min-width: 400px;
+}
+
+.nav-bar-menu {
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.menu-items {
+    padding: 10px 17px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.menu-items:hover {
+    background-color: #643a79;
+}
+.active {
+    background-color: #643a79;
+}
+
+.logo {
+    font-size: 31px;
+    font-family: "Roboto Black", sans-serif;
+}
+
+.work-with-us {
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.text-title {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+}
+.bnt-work-us {
+    background-color: #eb7d4b;
+    color: white;
+    margin: 54px auto 119px auto ;
+    box-shadow: 0 2px 0 0 #c86a40;
+}
+
+.header {
+    flex-wrap: wrap;
+}
+
+.service-container {
+    background-color: #17c2a4;
+    color: white;
+}
+
+.text-content {
+    text-align: center;
+    font-size: 18px;
+    margin: 24px auto 0 auto;
+    width: 70%;
+}
+
+.service {
+    width: 200px;
+    min-width: 150px;
+    flex-wrap: wrap;
+}
+
+.service-cart {
+    margin-top: 79px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.service-img {
+    width: 120px;
+    height: 125px;
+}
+
+.service-title {
+    width: 100%;
+    margin-top: 57px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.service-text-content {
+    width: 100%;
+    height: 192px;
+    overflow: hidden;
+}
+
+.team-section {
+    background-color: #e7f1f8;
+}
+.team-section .text-title {
+     color: #3c4761;
+}
+
+
+.team-cart {
+    margin-top: 79px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.team-img {
+    width: 150px;
+    height: 150px;
+}
+.team {
+    flex-wrap: wrap;
+    max-width: 20%;
+    min-width: 200px;
+}
+
+.team-title {
+    width: 100%;
+    margin-top: 57px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.team-profession {
+    margin-bottom: 20px;
+    color: #30bae7;
+    font-size: 16px;
+}
+
+.team-text-content {
+    height: 173px;
+    font-size: 16px;
+}
+.social {
+    width: 70%;
+    margin-bottom: 127px;
+    font-size: 24px;
+}
+
+.skill-section {
+    color: #3c4761;
+}
+
+.skill-card {
+    margin-top: 79px;
+    flex-wrap: wrap;
+}
+.w-design {
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    border: 38px solid #40c4c8;
+    -webkit-border-image:  url(img/Progress.png) 30 round round;
+}
+
+.html-css {
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    border: 38px solid #40c4c8;
+    -webkit-border-image:  url(img/Progress2.png) 30 round round;
+}
+
+.g-design {
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    border: 38px solid #40c4c8;
+    -webkit-border-image:  url(img/Progress3.png) 30 round round;
+}
+
+.ui_ux {
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    border: 38px solid #40c4c8;
+    -webkit-border-image:  url(img/Progress4.png) 30 round round;
+}
+
+.digit {
+    font-size: 50px;
+}
+.skill-title {
+    width: 100%;
+    margin-top: 27px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 119px;
+}
+
+.portfolio-section {
+    background-color: #ffdd99;
+    color: #393939;
+}
+
+.category{
+    margin-top: 42px;
+}
+
+.c-items {
+    padding: 12px 24px;
+    background-color: #ebc985;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.c-items a{
+    color: #393939;
+}
+.c-items.active {
+    background-color: white;
+}
+.c-items:hover {
+    background-color: white;
+}
+
+.portfolio-card {
+    flex-wrap: wrap;
+    margin-top: 65px;
+    font-size: 18px;
+}
+
+.portfolio {
+    min-width: 48%;
+    max-width: 48%;
+}
+
+.portfolio-title {
+    width: 100%;
+    text-align: center;
+    margin: 32px 0 64px 0;
+}
+
+.load-more-project {
+    padding: 29px 82px;
+    color: white;
+    border: 1px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #17c2a4;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 0 #14a58c;
+    margin: 0 auto 109px auto ;
+}
+
+.about-us-section {
+    background-color: #d74680;
+    color: white;
+}
+
+.about-us-card {
+    flex-wrap: wrap;
+    margin-top: 71px;
+}
+
+.about-us {
+    min-width: 360px;
+    max-width: 48%;
+    margin-bottom: 120px;
+}
+
+.about-img {
+    margin-right: 48px;
+    height: 80px;
+    min-width: 80px;
+}
+
+.text-italic {
+   font-family: "Titillium Web", sans-serif;
+    font-size: 21px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.name-about {
+    margin-top: 28px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.position {
+    color: #ffdd99;
+    font-size: 18px;
+}
+
+.get-in-touch {
+    background-color: #3c5499;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.form {
+    margin-top: 77px;
+}
+
+.form-input {
+    padding: 22px 25px;
+    background-color: #273a71;
+    border: 1px;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 27px;
+    color: white;
+}
+.form-input::placeholder {
+    color: white;
+}
+
+.input-cont {
+    flex-wrap: wrap;
+}
+
+.texter-input {
+    background-color: #273a71;
+    border: 1px;
+    padding: 25px;
+    width: 100%;
+    height: 200px;
+    font-size: 18px;
+    color: white;
+}
+
+.texter-input::placeholder {
+    color: white;
+}
+
+label {
+    width: 48%;
+}
+
+.btn-send {
+    background-color: #30bae7;
+    color: white;
+    margin: 59px auto 119px auto;
+}
+
+.social-menu {
+    margin-bottom: 40px;
+}
