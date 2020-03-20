@@ -67,7 +67,6 @@ button {
 
 .container {
     max-width: 1176px;
-    min-width: 400px;
 }
 
 .nav-bar-menu {
@@ -89,12 +88,10 @@ button {
 }
 
 .logo {
-    font-size: 31px;
-    font-family: "Roboto Black", sans-serif;
+    margin-right: 50px;
 }
 
 .work-with-us {
-    margin-top: 70px;
     flex-wrap: wrap;
 }
 
@@ -298,13 +295,8 @@ button {
 }
 
 .load-more-project {
-    padding: 29px 82px;
     color: white;
-    border: 1px;
-    font-weight: 600;
-    font-size: 18px;
     background-color: #17c2a4;
-    border-radius: 10px;
     box-shadow: 0 2px 0 0 #14a58c;
     margin: 0 auto 109px auto ;
 }
@@ -401,4 +393,68 @@ label {
 
 .social-menu {
     margin-bottom: 40px;
+}
+
+
+@media all and (max-width: 777px){
+    .nav-bar-menu {
+        justify-content: center;
+    }
+    .logo {
+        width: 117px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .header-menu {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .service-cart, .team-cart, .skill-card, .portfolio-card, .about-us-card{
+        justify-content: center;
+    }
+
+    .portfolio {
+        min-width: 250px;
+    }
+
+    .about-us {
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 280px;
+    }
+
+    .about-img {
+        margin-bottom: 15px;
+        margin-right: 0;
+        height: 100px;
+        width: 100px;
+    }
+
+    .a-text-cont {
+        text-align: center;
+    }
+
+    .name-about {
+        margin-top: 0;
+    }
+
+    .c-items {
+        margin-bottom: 15px;
+    }
+
+    .social-menu ul, .category {
+        flex-wrap: wrap;
+    }
+
+    button {
+        padding: 20px 55px;
+        font-size: 18px;
+    }
+
+    label {
+        display: flex;
+        margin: 0 auto;
+        width: 250px;
+    }
 }

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="899fbc99-b3ba-4efd-880e-b8413efa3c18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Questions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Questions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questions/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Questions/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584613629902</updated>
       <workItem from="1584613633512" duration="44586000" />
-      <workItem from="1584699782707" duration="1469000" />
+      <workItem from="1584699782707" duration="5304000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <created>1584701064629</created>
@@ -61,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584701064629</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Done">
+      <created>1584701298969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584701298969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,13 +95,13 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="275" y="82" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1584701076798" />
-    <state x="339" y="164" key="run.anything.popup" timestamp="1584658867124">
+    <state x="339" y="164" key="run.anything.popup" timestamp="1584703416979">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="339" y="164" key="run.anything.popup/0.0.1366.736@0.0.1366.736" timestamp="1584658867124" />
-    <state x="346" y="57" width="672" height="678" key="search.everywhere.popup" timestamp="1584642955728">
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.736@0.0.1366.736" timestamp="1584703416979" />
+    <state x="346" y="57" width="672" height="678" key="search.everywhere.popup" timestamp="1584704922537">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="346" y="57" width="672" height="678" key="search.everywhere.popup/0.0.1366.736@0.0.1366.736" timestamp="1584642955728" />
+    <state x="346" y="57" width="672" height="678" key="search.everywhere.popup/0.0.1366.736@0.0.1366.736" timestamp="1584704922537" />
   </component>
 </project>
